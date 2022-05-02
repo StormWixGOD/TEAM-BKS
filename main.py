@@ -56,7 +56,7 @@ def banner():
 | __ )(_)_ __        / ___| |__  | | __
 |  _ \| | '_ \ •••••| |   | '_ \ | |/ /
 | |_) | | | | |•••••| |___| | | ||   < -> {}Made By YHVGA
-{}|____/|_|_| |      \____|_| ||_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
+{}|____/|_|_| | |     \____|_| | ||_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
     print(my_banner)
 
 if __name__=='__main__':
