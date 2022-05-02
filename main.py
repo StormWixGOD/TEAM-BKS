@@ -53,17 +53,17 @@ class main(object):
 def banner():
     my_banner = """
  {}____  _              ____ _               _    
-| __ )(_)_ __        / ___| |__   ___  ___| | __
-|  _ \| | '_ \ _____| |   | '_ \ / _ \/ __| |/ /
-| |_) | | | | |_____| |___| | | |  __/ (__|   < -> {}Made By YHVGA
-{}|____/|_|_| |_|      \____|_| |_|\___|\___|_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
+| __ )(_)_ __        / ___| |__  | | __
+|  _ \| | '_ \ •••••| |   | '_ \ | |/ /
+| |_) | | | | |•••••| |___| | | ||   < -> {}Made By YHVGA
+{}|____/|_|_| |      \____|_| ||_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
     print(my_banner)
 
 if __name__=='__main__':
     banner()
     while True:
         try:
-            BINS = input('\n[{}?{}] Bins : {}'.format(white, brblue, white))
+            BINS = input('\n[{}ϟ{}] Bins : {}'.format(white, brblue, white))
             main.check(BINS)
         except KeyboardInterrupt:
             EXT('\nOk Byeeeeeee Atte:Yhvga')
