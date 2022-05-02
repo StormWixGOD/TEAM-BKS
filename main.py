@@ -66,4 +66,4 @@ if __name__=='__main__':
             BINS = input('\n[{}ϟ{}] Bins : {}'.format(white, brblue, white))
             main.check(BINS)
         except KeyboardInterrupt:
-            EXT('\nOk Byeeeeeee Atte:Yhvga')
+            EXT('I HOPE YOU HAVE ENJOYED IT A LOT AND I HAVE BEEN HELP')
