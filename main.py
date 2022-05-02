@@ -50,7 +50,7 @@ class main(object):
 {}[{}ϟ{}] Level   : {}{}
 {}[{}ϟ{}] Bank    : {}{}
 {}[{}ϟ{}] Country : {}{}{}""".format(brblue, white, brblue, white, data['Bin'], brblue, white, brblue, white, data['Vendor'], brblue, white, brblue, white, data['Type'], brblue, white, brblue, white, data['Level'], brblue, white, brblue, white, data['Bank'], brblue, white, brblue, white, data['Country'], brblue))
-{}[{}ϟ{}] CREATED BY @YHVGA <= TELEGRAM
+ϟ CREATED BY @YHVGA <= TELEGRAM
 def banner():
     my_banner = """
  {}____  _              ____ _               _    
