@@ -50,14 +50,13 @@ class main(object):
 {}[{}ϟ{}] Level   : {}{}
 {}[{}ϟ{}] Bank    : {}{}
 {}[{}ϟ{}] Country : {}{}{}""".format(brblue, white, brblue, white, data['Bin'], brblue, white, brblue, white, data['Vendor'], brblue, white, brblue, white, data['Type'], brblue, white, brblue, white, data['Level'], brblue, white, brblue, white, data['Bank'], brblue, white, brblue, white, data['Country'], brblue))
-print("ϟ CREATED BY @YHVGA <= TELEGRAM")
 def banner():
     my_banner = """
  {}____  _              ____ _               _    
 | __ )(_)_ __        / ___| |__   ___  ___| | __
 |  _ \| | '_ \ _____| |   | '_ \ / _ \/ __| |/ /
 | |_) | | | | |_____| |___| | | |  __/ (__|   < -> {}Made By YHVGA
-{}|____/|_|_| |_|      \____|_| |_|\___|\___|_|\_\-> {} Enjoy 🔨}""".format(brblue, white, brblue, white, brblue)
+{}|____/|_|_| |_|      \____|_| |_|\___|\___|_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
     print(my_banner)
 
 if __name__=='__main__':
