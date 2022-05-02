@@ -39,6 +39,7 @@ class main(object):
             'Bin': full_data['bin'],
             'Vendor': full_data['vendor'],
             'Type': full_data['type'],
+            'DC': full_data['dialCode'],
             'Level': full_data['level'],
             'Bank': full_data['bank'],
             'Country': full_data['country'],
@@ -47,6 +48,7 @@ class main(object):
 {}[{}ϟ{}] Bin     : {}{}
 {}[{}ϟ{}] Vendor  : {}{}
 {}[{}ϟ{}] Type    : {}{}
+{}[{}ϟ{}] DC      : {}{}
 {}[{}ϟ{}] Level   : {}{}
 {}[{}ϟ{}] Bank    : {}{}
 {}[{}ϟ{}] Country : {}{}{}""".format(brblue, white, brblue, white, data['Bin'], brblue, white, brblue, white, data['Vendor'], brblue, white, brblue, white, data['Type'], brblue, white, brblue, white, data['Level'], brblue, white, brblue, white, data['Bank'], brblue, white, brblue, white, data['Country'], brblue))
