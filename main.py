@@ -1,6 +1,6 @@
 # Module
 # Iseng Sloerrrrrrrrrrrrr
-# Made By X - MrG3P5
+# Made By @yhvga
 import requests
 from os import system as SYSS
 from sys import exit as EXT
@@ -21,7 +21,7 @@ class main(object):
     def main(cls, x):
         BINS = x
         x = {
-            'author': 'X-MrG3P5',
+            'author': 'yhvga',
             'url': 'https://bins-su-api.now.sh/api/'+x,
             'version': '0.1.1'
         }
@@ -56,8 +56,8 @@ def banner():
  {}____  _              ____ _               _    
 | __ )(_)_ __        / ___| |__   ___  ___| | __
 |  _ \| | '_ \ _____| |   | '_ \ / _ \/ __| |/ /
-| |_) | | | | |_____| |___| | | |  __/ (__|   < -> {}Made By
-{}|____/|_|_| |_|      \____|_| |_|\___|\___|_|\_\-> {}X - MrG3P5{}""".format(brblue, white, brblue, white, brblue)
+| |_) | | | | |_____| |___| | | |  __/ (__|   < -> {}Made By YHVGA
+{}|____/|_|_| |_|      \____|_| |_|\___|\___|_|\_\-> {} Enjoy The Information! 🔨
     print(my_banner)
 
 if __name__=='__main__':
@@ -67,4 +67,4 @@ if __name__=='__main__':
             BINS = input('\n[{}?{}] Bins : {}'.format(white, brblue, white))
             main.check(BINS)
         except KeyboardInterrupt:
-            EXT('\nOke Byeeeeeee')
+            EXT('\nOk Byeeeeeee /nAtte:Yhvga')
