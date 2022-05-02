@@ -52,11 +52,11 @@ class main(object):
 {}[{}ϟ{}] Country : {}{}{}""".format(brblue, white, brblue, white, data['Bin'], brblue, white, brblue, white, data['Vendor'], brblue, white, brblue, white, data['Type'], brblue, white, brblue, white, data['Level'], brblue, white, brblue, white, data['Bank'], brblue, white, brblue, white, data['Country'], brblue))
 def banner():
     my_banner = """
- {}____  _              ____ _               _    
+ {}____  _              ____ _                  
 | __ )(_)_ __        / ___| |__  | | __
 |  _ \| | '_ \ •••••| |   | '_ \ | |/ /
 | |_) | | | | |•••••| |___| | | ||   < -> {}Made By YHVGA
-{}|____/|_|_| | |     \____|_| | ||_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
+{}|____/|_|_| | |      \____|_| | ||_|\_\-> {} Enjoy 🔨{}""".format(brblue, white, brblue, white, brblue)
     print(my_banner)
 
 if __name__=='__main__':
