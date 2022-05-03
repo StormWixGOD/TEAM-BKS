@@ -1,5 +1,3 @@
-# Module
-# Iseng Sloerrrrrrrrrrrrr
 # Made By @yhvga
 import requests
 from os import system as SYSS
